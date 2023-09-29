@@ -1,0 +1,41 @@
+$main-text-color: black;
+$main-font-family: 'Mulish', sans-serif;
+
+body {
+    margin-left: 125px;
+    margin-right: 125px;
+}
+header {
+    color: $main-text-color;
+    font-family: $main-font-family;
+    position: relative;
+    top: 61px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &__list {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: row;
+        list-style: none;
+    }
+    &__li {
+        margin-left: 29px;
+        position: relative;
+        bottom: 32px;
+    }
+}
+.nav__link:hover {
+    font-weight: bold;
+    color: orange;
+    text-decoration: underline;
+}
