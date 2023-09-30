@@ -1,0 +1,31 @@
+.footer-container {
+    display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   flex-direction: row;
+   .footer__list {
+       width: 100%;
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+       flex-direction: row;
+       list-style: none;
+       position: relative;
+       right: 130px;
+       }
+       .footer__li {
+           margin-left: 29px;
+           position: relative;
+           bottom: 32px;
+           font-size: 18px;
+           font-style: normal;
+           font-weight: 700;
+           line-height: normal;
+           letter-spacing: -0.346px;
+       }
+   }
+   .icons {
+       position: relative;
+       bottom: 32px;
+       left: 20px;
+   }

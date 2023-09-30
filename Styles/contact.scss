@@ -1,0 +1,115 @@
+$main-text-color: black;
+$main-font-family: 'Mulish', sans-serif;
+
+body {
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.title, .form {
+    color: $main-text-color;
+    font-family: $main-font-family;
+    width: 50%;
+    margin-top: 110px;
+}
+h1 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+}
+h6 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+input, textarea {
+    margin-top: 20px;
+    background: none;
+    border-bottom: 1px solid #979797;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+ }
+ .label, .placeholder-text, .btn {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+ }
+ .label {
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+ }
+ .placeholder-text {
+    letter-spacing: 5.4px;
+    font-weight: 400;
+ }
+ .btn {
+    border: none;
+    width: 125px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #4A4FF2;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+ }
+ .btn:hover {
+    background-color: aquamarine;
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+    color: black;
+ }
+ #name:hover {
+    background-color: aquamarine;
+    transition: all 0.3s ease 0s;
+    border-radius: 5px;
+ }
+ #email:hover {
+    background-color: aquamarine;
+    transition: all 0.3s ease 0s;
+    border-radius: 5px;
+ }
+ #message-reg:hover {
+    background-color: aquamarine;
+    transition: all 0.3s ease 0s;
+    border-radius: 5px;
+ }
+ .placeholder-text:hover {
+    background-color: aquamarine;
+    transition: all 0.3s ease 0s;
+    border-radius: 5px;
+ }
+ .map {
+    width: 1110px;
+    height: 570px;
+    flex-shrink: 0;
+    position: relative;
+    top: 200px;
+    
+ }
+ footer{
+   position: relative;
+   top: 300px;
+   
+ }
+
+@import 'header';
+@import 'footer';

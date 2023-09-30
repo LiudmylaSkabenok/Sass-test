@@ -1,0 +1,22 @@
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 91px;
+}
+.group-content {
+    width: 65%;
+    color: $main-text-color;
+    font-family: $main-font-family;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 135.714% */
+}
+h6 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 26px; /* 162.5% */
+    }
