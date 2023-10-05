@@ -2,8 +2,8 @@ $main-text-color: black;
 $main-font-family: 'Mulish', sans-serif;
 
 body {
-    margin-left: 125px;
-    margin-right: 125px;
+    margin: auto;
+    max-width: 1109px;
 }
 
 @import 'header';

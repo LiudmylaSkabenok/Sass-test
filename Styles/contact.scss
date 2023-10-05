@@ -2,14 +2,14 @@ $main-text-color: black;
 $main-font-family: 'Mulish', sans-serif;
 
 body {
-    margin-left: 125px;
-    margin-right: 125px;
+   margin: auto;
+   max-width: 1109px;
+   min-height: 1375px;
 }
 .title, .form {
     color: $main-text-color;
     font-family: $main-font-family;
     width: 50%;
-    margin-top: 110px;
 }
 h1 {
     font-size: 40px;
@@ -24,14 +24,16 @@ h6 {
     line-height: 26px; /* 162.5% */
 }
 .info {
+   min-height: 410px;
+   padding-top: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
 }
 .form {
-    position: relative;
-    left: 200px;
-    top: 50px;
+    padding-left: 200px;
+   
 }
 input, textarea {
     margin-top: 20px;
@@ -98,17 +100,12 @@ input, textarea {
     border-radius: 5px;
  }
  .map {
-    width: 1110px;
-    height: 570px;
-    flex-shrink: 0;
-    position: relative;
-    top: 200px;
- }
- footer{
-   position: relative;
-   top: 300px;
-   
- }
+   max-width: 1110px;
+   min-height: 570px;
+   flex-shrink: 0;
+   padding-bottom: 100px;
+}
+
 
 @import 'header';
 @import 'footer';
